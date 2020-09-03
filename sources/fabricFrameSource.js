@@ -31,7 +31,7 @@ async function renderFabricCanvas(canvas) {
   canvas.renderAll();
   const rgba = fabricCanvasToRgba(canvas);
   canvas.clear();
-  // canvas.dispose();
+  canvas.dispose();
   return rgba;
 }
 
